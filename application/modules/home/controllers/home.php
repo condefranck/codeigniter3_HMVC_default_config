@@ -10,7 +10,7 @@ class Home extends MX_Controller {
 
     public function index()
     {
-        $this->load->view('home/accueil_view');
+        $this->load->view('home/home_view');
     }
 
 }

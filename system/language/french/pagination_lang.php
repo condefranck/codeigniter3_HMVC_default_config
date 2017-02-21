@@ -8,8 +8,7 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['terabyte_abbr'] = 'To';
-$lang['gigabyte_abbr'] = 'Go';
-$lang['megabyte_abbr'] = 'Mo';
-$lang['kilobyte_abbr'] = 'Ko';
-$lang['bytes'] = 'Octets';
+$lang['pagination_first_link'] = '&lsaquo; Première';
+$lang['pagination_next_link'] = '&gt;';
+$lang['pagination_prev_link'] = '&lt;';
+$lang['pagination_last_link'] = 'Dernière &rsaquo;';
