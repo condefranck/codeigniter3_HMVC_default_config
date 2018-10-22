@@ -53,7 +53,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	$defines_file = 'coeur/includes/properties.php';
+	$defines_file = 'application/includes/properties.php';
   global $ENVIRONMENT;
 	if (file_exists($defines_file)){
 		    require_once($defines_file);
@@ -102,7 +102,7 @@ switch (ENVIRONMENT)
  * This variable must contain the name of your "system" directory.
  * Set the path if it is not in the same directory as this file.
  */
-	$system_path = 'noyau';
+	$system_path = 'system';
 
 /*
  *---------------------------------------------------------------
@@ -119,7 +119,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = 'coeur';
+	$application_folder = 'application';
 
 /*
  *---------------------------------------------------------------
